@@ -35,9 +35,7 @@ int main() {
     }
     float average = (float)sum / SIZE;
     printf("average = %.2f \n", average);
-
-
-    for (int i = 0; i < SIZE - 1; i++) {
+for (int i = 0; i < SIZE - 1; i++) {
         for (int j = 0; j < SIZE - i - 1; j++) {
             if (*(numbers + j) > *(numbers + j + 1)) {
                 int temp = *(numbers + j);
@@ -48,57 +46,5 @@ int main() {
     }
     float median = (float)(numbers[SIZE / 2 - 1] + numbers[SIZE / 2]) / 2;
     printf("median = %.2f\n", median);
-
-
     return 0;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-//#include <iostream>
-//#define SIZE 10
-//
-//int main() {
-//    int number1 = 1;
-//    int *ptr1 = &number1;
-//    int number2 = 1;
-//    int *ptr2 = &number2;
-//    while (*ptr1 != 0 || *ptr2 != 0) {
-//        printf("Podaj pierwsza liczbe:  \n");
-//        scanf_s("%d", ptr1);
-//        printf("Podaj druga liczbe:  \n");
-//        scanf_s("%d", ptr2);
-//        if (*ptr1 == 0 || *ptr2 == 0) {
-//            break;
-//        }
-//        else if (*ptr1 != 0 && *ptr2 != 0) {
-//            printf("%d+%d = %d \n",*ptr1,*ptr2,*ptr1 + *ptr2);
-//            printf("%d-%d = %d \n",*ptr1,*ptr2,*ptr1 - *ptr2);
-//            printf("%d*%d = %d \n",*ptr1,*ptr2,*ptr1 * *ptr2);
-//            printf("%d/%d = %d \n",*ptr1,*ptr2,*ptr1 / *ptr2);
-//            printf("%d modulo %d = %d \n",*ptr1,*ptr2,*ptr1 % *ptr2);
-//        }
-//    }
-//
-//
-//    return 0;
-//}
-//
-//
-//
-//
-//
-//
-//
-//
-//
