@@ -49,33 +49,6 @@ int main(int argc, char* argv[]) {
     return 0;
 }
 
-
-
-
-
-
-
-
-
-
-
-//
-//#include <iostream>
-//#include <string.h>
-//#define MAX_SIZE 1000
-//void toLower(char *text){
-//    while(*text){
-//        if(*text>='A'&& *text<='Z'){
-//            *text -=('A'-'a');
-//        }
-//        text++;
-//    }
-//}
-//
-//void toUpper(char *text){
-//    while(*text){
-//        if(*text>='a'&&*text<='z'){
-//            *text -=('a'-'A');
 //        }
 //        text++;
 //    }
@@ -103,6 +76,33 @@ int main(int argc, char* argv[]) {
 //int main(int argc, char *argv[]){
 //
 //    char text[MAX_SIZE] = "";
+
+//}
+//
+//void toUpper(char *text){
+//    while(*text){
+//        if(*text>='a'&&*text<='z'){
+//            *text -=('a'-'A');
+
+
+
+
+
+
+
+
+
+//
+//#include <iostream>
+//#include <string.h>
+//#define MAX_SIZE 1000
+//void toLower(char *text){
+//    while(*text){
+//        if(*text>='A'&& *text<='Z'){
+//            *text -=('A'-'a');
+//        }
+//        text++;
+//    }
 //    int current_length = 0;
 //
 //    if(strlen(argv[1])<MAX_SIZE){
