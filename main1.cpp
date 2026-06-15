@@ -49,44 +49,5 @@ int main() {
     }
     float median = (float)(numbers[SIZE / 2 - 1] + numbers[SIZE / 2]) / 2;
     printf("median = %.2f\n", median);
-
-
     return 0;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// int number1 = 1;
-// int number2 = 1;
-// while (number1 != 0 || number2 != 0) {
-//     printf("Podaj pierwsza liczbe:  \n");
-//     scanf_s("%d", &number1);
-//     printf("Podaj druga liczbe:  \n");
-//     scanf_s("%d", &number2);
-//     if (number1 == 0 || number2 == 0) {
-//         break;
-//     }
-//     else if (number1 != 0 && number2 != 0) {
-//         printf("%d+%d = %d \n",number1,number2,number1 + number2);
-//         printf("%d-%d = %d \n",number1,number2,number1 - number2);
-//         printf("%d*%d = %d \n",number1,number2,number1 * number2);
-//         printf("%d/%d = %d \n",number1,number2,number1 / number2);
-//         printf("%d modulo %d = %d \n",number1,number2,number1 % number2);
-//     }
-// }
