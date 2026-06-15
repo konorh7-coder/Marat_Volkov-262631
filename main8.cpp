@@ -1,7 +1,4 @@
-//
-// Created by student on 11.05.2026.
-//
-//#include <iostream>
+
 #include <stdio.h>
 #include "Stack.cpp"
 
