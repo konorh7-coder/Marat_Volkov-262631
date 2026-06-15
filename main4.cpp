@@ -8,16 +8,6 @@ void toLower(char *text){
         text++;
     }
 }
-
-void toUpper(char *text){
-    while(*text){
-        if(*text>='a'&&*text<='z'){
-            *text -=('a'-'A');
-        }
-        text++;
-    }
-}
-
 int textSize(char *text){
     int size = 0;
     while(*text){
@@ -27,6 +17,16 @@ int textSize(char *text){
     }
     return size;
 }
+void toUpper(char *text){
+    while(*text){
+        if(*text>='a'&&*text<='z'){
+            *text -=('a'-'A');
+        }
+        text++;
+    }
+}
+
+
 
 int main(){
     char text[] = "Ala ma kota.";
@@ -41,89 +41,6 @@ int main(){
     return 0;
 }
 
-
-//#include <iostream>
-//
-//void toLower(char *text){
-//    while(*text){
-//        if(*text>='A'&& *text<='Z'){
-//            *text -=('A'-'a');
-//        }
-//        text++;
-//    }
-//}
-//
-//void toUpper(char *text){
-//    while(*text){
-//        if(*text>='a'&&*text<='z'){
-//            *text -=('a'-'A');
-//        }
-//        text++;
-//    }
-//}
-//
-//int textSize(char *text){
-//    int size = 0;
-//    while(*text){
-//        size++;
-//        text++;
-//
-//    }
-//    return size;
-//}
-//
-//void removeNewLine(char *text) {
-//    for(int i =0;i<80;i++) {
-//        if (text[i] == '\n') {
-//            text[i] = '\0';
-//        }
-//    }
-//    text++;
-//}
-//
-//int main(){
-//    char text[80];
-//
-//    while(true){
-//        printf("Enter new text: \n");
-//        fgets(text, 80, stdin);
-//        removeNewLine(text);
-//
-//        if(text[0]== '\0') break;
-//
-//        printf("%s \n", text);
-//        toLower(text);
-//        printf("%s \n", text);
-//        toUpper(text);
-//        printf("%s \n", text);
-//        printf("%d \n",textSize(text));
-//
-//
-//    }
-//
-//    return 0;
-//}
-//
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-//#include <iostream>
-//#include <stdlib.h>
-//#include <time.h>
 //#include <string.h>
 //
 //void shuffle(char *array, int n) {
